@@ -34,7 +34,7 @@ setTimeout(() => {
     Browsers,
     delay,
     makeInMemoryStore
-  } = require("@sampandey001/baileys");
+  } = require("@whiskeysockets/baileys");
 
   const store = makeInMemoryStore({ 
     logger: pino().child({ level: 'silent', stream: 'store' }) 
