@@ -11,7 +11,7 @@
 2. ***Run manually in any terminal Terminal, `TERMUX, VPS, RDP, etc.`***
 ```
 $ git clone https://github.com/s-hasil/DELTA-MD-QR.git
-$ cd suhail-qr
+$ cd shadow-md
 $ npm i
 $ npm start
 ```
