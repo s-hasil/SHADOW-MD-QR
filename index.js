@@ -1,5 +1,5 @@
 
-/*                              𝗦𝗛𝗔𝗗𝗢𝗪 𝗠𝗨𝗟𝗧𝗜 𝗗𝗘𝗩𝗜𝗖𝗘 𝗕𝗢𝗧 𝗕𝗬 𝗝𝗢𝗬 𝗕𝗢𝗬 𝗦𝗘𝗥
+/*                              DELTA-MD 𝗗𝗘𝗩𝗜𝗖𝗘 𝗕𝗢𝗧 𝗕𝗬 𝗝𝗢𝗬 𝗕𝗢𝗬 𝗦𝗘𝗥
 
 CURRENTLY RUNNING ON BETA VERSION!!
 *
@@ -12,7 +12,7 @@ CURRENTLY RUNNING ON BETA VERSION!!
    * Licensed under the  GPL-3.0 License;
 * 
    * Created By Joy Boy Ser.
-   * © 2023 Shadow-Md.
+   * © 2023 Delta-Md.
 */
 
 const fs   = require("fs-extra");
@@ -87,9 +87,9 @@ let cc = `╔════◇
           process.exit(1)   // STOPPING PROCESS AFTER GETTING SESSION ID
         }
         session.ev.on('creds.update', saveCreds)
-       if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) { sᴜʜᴀɪʟ_ʙᴀɪʟᴇʏs_ǫʀ(); } // IF ANY ERROR< THEN PRINT QR AGAIN
+       if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) { joyboyser_ʙᴀɪʟᴇʏs_ǫʀ(); } // IF ANY ERROR< THEN PRINT QR AGAIN
       });
     } catch (err) {console.log(err);await require('child_process').exec('rm -rf auth_info_baileys');process.exit(1);}
   }
-  sᴜʜᴀɪʟ_ʙᴀɪʟᴇʏs_ǫʀ();
+  joyboyser_ʙᴀɪʟᴇʏs_ǫʀ();
 }, 3000)
